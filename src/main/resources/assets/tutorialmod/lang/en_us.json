@@ -1,4 +1,6 @@
 {
   "item.tutorialmod.epic_sword": "Epic Sword",
-  "item.tutorialmod.epic_sword_fire": "Epic Sword on Fire"
+  "item.tutorialmod.epic_sword_fire": "Epic Sword on Fire",
+
+  "block.tutorialmod.flaming_block": "Hot Flaming Block"
 }

@@ -24,5 +24,6 @@ public class ModItems {
             entries.add(EPIC_SWORD);
             entries.add(EPIC_SWORD_FIRE);
         });
+
     }
 }

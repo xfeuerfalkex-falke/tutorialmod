@@ -6,6 +6,7 @@ import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import tutorial.xfeuerfalkex.block.ModBlocks;
 import tutorial.xfeuerfalkex.item.ModItems;
 
 public class Tutorialmod implements ModInitializer {
@@ -15,5 +16,6 @@ public class Tutorialmod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
