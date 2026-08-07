@@ -3,5 +3,8 @@
   "item.tutorialmod.epic_sword_fire": "Epic Sword on Fire",
 
   "block.tutorialmod.flaming_block": "Hot Flaming Block",
-  "block.tutorialmod.flaming_block": "Blue Flaming Block"
+  "block.tutorialmod.blue_flaming_block": "Blue Flaming Block",
+
+  "itemgroup.tutorialmod.epic_items": "Epic Items",
+  "itemgroup.tutorialmod.epic_blocks": "Epic Blocks"
 }
