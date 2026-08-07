@@ -20,6 +20,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.EPIC_SWORD);
                         entries.add(ModItems.EPIC_SWORD_FIRE);
+                        entries.add(ModItems.FIRESTONE);
+                        entries.add(ModItems.BLUE_FIRESTONE);
 
                     }).build());
 
