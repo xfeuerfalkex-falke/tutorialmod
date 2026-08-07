@@ -6,6 +6,7 @@ import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import tutorial.xfeuerfalkex.item.ModItems;
 
 public class Tutorialmod implements ModInitializer {
 	public static final String MOD_ID = "tutorialmod";
@@ -13,10 +14,6 @@ public class Tutorialmod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-	}
-
-	public static Identifier id(String path) {
-		return Identifier.of(MOD_ID, path);
+		ModItems.registerModItems();
 	}
 }
