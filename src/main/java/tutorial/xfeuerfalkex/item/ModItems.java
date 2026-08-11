@@ -7,12 +7,15 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import tutorial.xfeuerfalkex.Tutorialmod;
+import tutorial.xfeuerfalkex.item.custom.ChiselItem;
 
 public class ModItems {
     public static final Item EPIC_SWORD = registerItem("epic_sword", new Item(new Item.Settings()));
     public static final Item EPIC_SWORD_FIRE = registerItem("epic_sword_fire", new Item(new Item.Settings()));
     public static final Item FIRESTONE = registerItem("firestone", new Item(new Item.Settings()));
     public static final Item BLUE_FIRESTONE = registerItem("blue_firestone", new Item(new Item.Settings()));
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
 
     private static Item registerItem(String name, Item item) {

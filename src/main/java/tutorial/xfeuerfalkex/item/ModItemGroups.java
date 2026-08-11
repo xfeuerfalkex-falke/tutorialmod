@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.EPIC_SWORD_FIRE);
                         entries.add(ModItems.FIRESTONE);
                         entries.add(ModItems.BLUE_FIRESTONE);
+                        entries.add(ModItems.CHISEL);
 
                     }).build());
 
@@ -32,6 +33,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.FLAMING_BLOCK);
                         entries.add(ModBlocks.BLUE_FLAMING_BLOCK);
+                        entries.add(ModBlocks.FIRESTONE_ORE);
 
                     }).build());
 
