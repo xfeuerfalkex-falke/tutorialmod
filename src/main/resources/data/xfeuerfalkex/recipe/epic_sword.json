@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "tutorialmod:firestone"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#",
+    "#",
+    "X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:epic_sword"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:firestone_ore",
+    "tutorialmod:blue_flaming_block",
+    "tutorialmod:flaming_block"
+  ]
+}

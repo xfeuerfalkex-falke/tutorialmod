@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "tutorialmod:blue_flaming_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmod:blue_firestone"
+  }
+}
