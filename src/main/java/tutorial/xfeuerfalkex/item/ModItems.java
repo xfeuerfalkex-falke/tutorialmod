@@ -1,8 +1,7 @@
 package tutorial.xfeuerfalkex.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -10,8 +9,12 @@ import tutorial.xfeuerfalkex.Tutorialmod;
 import tutorial.xfeuerfalkex.item.custom.ChiselItem;
 
 public class ModItems {
-    public static final Item EPIC_SWORD = registerItem("epic_sword", new Item(new Item.Settings()));
-    public static final Item EPIC_SWORD_FIRE = registerItem("epic_sword_fire", new Item(new Item.Settings()));
+    public static final Item EPIC_SWORD = registerItem("epic_sword",
+            new SwordItem(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND,3,-2F)))
+    );
+    public static final Item EPIC_SWORD_FIRE = registerItem("epic_sword_fire",
+            new SwordItem(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND,6,-1.8F)))
+    );
     public static final Item FIRESTONE = registerItem("firestone", new Item(new Item.Settings()));
     public static final Item BLUE_FIRESTONE = registerItem("blue_firestone", new Item(new Item.Settings()));
 
